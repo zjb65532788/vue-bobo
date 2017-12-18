@@ -1,0 +1,258 @@
+*{padding: 0;margin: 0;}
+a,label{cursor: pointer;}
+a{text-decoration: none;}
+a:hover{text-decoration: none;}
+a.icon-btn:hover{text-decoration:none; }
+.text-underline{text-decoration: underline;}
+a.text-underline:hover{text-decoration: underline;}
+.font-bold{
+  font-weight: bold;
+}
+.text-right{text-align: right;}
+.text-center{text-align: center;}
+.text-left{text-align: left;}
+.left{float: left;}
+.right{float: right;}
+.dis-inline{display: inline-block;}
+.dis-block{display:block;}
+ul,ul li{list-style: none;}
+.clearfix{zoom:1;}
+.clearfix:after{clear: both;display: block;visibility: visible;overflow: hidden;content: " "}
+.m10{margin: 10px;}
+.m30{margin: 30px;}
+.mt5{margin-top: 5px;}
+.mt10{margin-top: 10px;}
+.mt15{margin-top: 15px;}
+.mt20{margin-top: 20px;}
+.mt25{margin-top: 25px;}
+.mt30{margin-top: 30px;}
+.mt36{margin-top: 36px;}
+.mt40{margin-top: 40px;}
+.mt50{margin-top: 50px;}
+.ml5{margin-left: 5px;}
+.ml10{margin-left: 10px;}
+.ml15{margin-left: 15px;}
+.ml20{margin-left: 20px;}
+.ml30{margin-left: 30px;}
+.ml40{margin-left: 40px;}
+.mr5{margin-right: 5px;}
+.mr10{margin-right: 10px;}
+.mr20{margin-right: 20px;}
+.mr25{margin-right: 25px;}
+.mr30{margin-right: 30px;}
+.mb5{margin-bottom: 5px;}
+.mb10{margin-bottom: 10px;}
+.mb20{margin-bottom: 20px;}
+.mb40{margin-bottom: 40px;}
+.mb50{margin-bottom: 50px;}
+.mb30{margin-bottom: 30px;}
+.p0{padding: 0px;}
+.col-md-3.p0{
+  padding: 0
+}
+.p10{padding: 10px;}
+.p20{padding: 20px;}
+.p30{padding: 30px;}
+.pt10{padding-top: 10px;}
+.pt20{padding-top: 20px;}
+.pb10{padding-bottom: 10px;}
+.pb20{padding-bottom: 20px;}
+.pb40{padding-bottom: 40px;}
+.pl10{padding-left: 10px}
+.pl20{padding-left: 20px;}
+.pl30{padding-left: 30px;}
+.pr10{padding-right: 10px}
+.pr20{padding-right: 20px;}
+.pr30{padding-right: 30px}
+.pt15{padding-top: 15px;}
+.pt30{padding-top: 30px}
+.pt40{padding-top: 40px;}
+.pt50{padding-top: 50px;}
+.pb15{padding-bottom: 15px;}
+.over-hidden{overflow: hidden;}
+.pr{position: relative;}
+.pb{position: absolute;}
+.ft0{font-size: 0}
+.ft12{font-size: 12px;}
+.ft14{font-size: 14px!important;}
+.ft16{font-size: 16px;}
+.ft18{font-size: 18px;}
+.ft20{font-size: 20px!important;}
+.ft24{font-size: 24px;}
+.ft26{font-size: 26px;}
+.ver-mid{vertical-align: middle;}
+.ver-top{vertical-align: top;}
+.ver-bottom{vertical-align: bottom;}
+.ver-middle{vertical-align: middle;}
+.base-btn{display: inline-block;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 5px 16px;
+    font-size: 16px;
+    line-height: 20px;box-sizing:border-box;}
+a.base-btn:hover{text-decoration: none;}
+.base-btn-default{
+  border: 1px solid #e0e0e0;
+  color: #333333;
+}
+.btn-pull{width: 100%;padding-left: 0!important;padding-right: 0!important;}
+.btn-orange{background-color:#fa9714;color:#FFF;}
+.btn-red{background-color: #ff6825;color: #FFF;border: 1px solid #ff6825;}
+.btn-red-out{color:#ff6825;background-color: #FFF;border: 1px solid #ff6825;}
+.btn-orange-out{background-color:#FFF;border: 1px solid #fa9714;color: #fa9714;box-sizing:border-box;}
+.btn-gray{background-color: #cccccc;color: #FFF;}
+.btn-blue{background-color: #3eadfe;color: #FFF;}
+.co-blue{
+  color: #2fa5fb;
+}
+.btn-blue-out{
+  border: 1px solid #2fa5fb;color: #2fa5fb;
+}
+.btn-blue-out:hover{
+  background-color: #3eadfe;color: #FFF;
+}
+.btn-blue:hover{
+  color: #FFF;
+}
+.btn-white{background-color: #FFF;color: #333333;border: 1px solid #dddddd;}
+.btn-big1{padding:10px 18px;}
+.btn-big2{padding: 9px 12px;}
+.btn-big{padding:15px 18px;}
+.vis-hidden{visibility: hidden;}
+.co-orange{color: #ffa200;}
+.co-error{color: #e91f1f;}
+.co-e3{color: #e3e3e3}
+.co-e{color: #eee;}
+.co-6{color: #666;}
+.co-3{color: #333;}
+.co-9{color: #999;}
+.co-c{color: #ccc;}
+.bg-white{background: #FFF;}
+.bg-f5{background: #f5f5f5;}
+.hidden{display: none;}
+.wp50{width: 50%}
+.wp100{width: 100%;}
+
+.circle {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.text-ellipsis{    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;}
+.cur-pointer{cursor: pointer;}
+.text-blue{
+    color: #3eadfe
+}
+.text-tuhuang{
+  color: #ffc600;
+}
+.text-orange{color: #ff6600;}
+.text-white{color: #FFF}
+.text-loess{color: #ff9900;}
+.text-khaki{
+    color: #f1ce4d;
+}
+.text-red{color: #ff6825;}
+.loading-out{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -10px;
+    margin-left: -110px;
+}
+.hover-color_blue:hover{
+    color: #5b9fe2;
+}
+table{
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+.table {
+    width: 100%;
+    max-width: 100%;
+    border: 1px solid #e1e1e1;
+}
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+    padding: 12px 6px;
+    line-height: 1.42857143;
+    vertical-align: middle;
+    border-top: 1px solid #e1e1e1;
+    text-align: center;
+    color: #3f4655;
+}
+.table>thead>tr:first-child>th{
+    border-top: 0;
+}
+.table>thead{background-color: #fcfcfe;color: #959ca9;}
+.table>thead>tr>th {
+    vertical-align: bottom;
+    border-bottom: 1px solid #f4f4f4;
+    font-weight: normal;
+}
+button.btn{
+    border: 0;
+}
+button:disabled{
+    border: 0;
+    background-color: #dddddd!important;
+    cursor: not-allowed;
+}
+
+.ant-loading{
+    opacity: .7;
+    -webkit-filter: blur(.8px);
+    filter: blur(.8px);
+    -webkit-filter: progid\:DXImageTransform\.Microsoft\.Blur(PixelRadius\=1,MakeShadow\=false);
+    filter: progid\:DXImageTransform\.Microsoft\.Blur(PixelRadius\=1,MakeShadow\=false);
+}
+
+.loading-special{position: absolute;width: 100%;height: 100%;top: 0;left: 0; animation:isloading1 2s 1 forwards  ;
+    -webkit-animation:isloading1 2s 1 forwards;}
+
+.loading-special.isloading{
+    visibility: visible;
+    animation:isloading 100ms 1 forwards  ;
+    -webkit-animation:isloading 100ms 1 forwards  ;
+}
+
+@keyframes isloading
+{
+from {opacity: 0;visibility: visible;}
+to {opacity: 1;visibility: visible;}
+}
+
+@-moz-keyframes isloading /* Firefox */
+{
+from {-moz-opacity:0;visibility: visible;}
+to {-moz-opacity: 1;visibility: visible;}
+}
+
+@-webkit-keyframes isloading /* Safari 和 Chrome */
+{
+from {-webkit-opacity: 0;visibility: visible;}
+to {-webkit-opacity: 1;visibility: visible;}
+}
+
+@keyframes isloading1
+{
+from {opacity: 1;}
+to {opacity: 0;visibility: hidden;}
+}
+
+@-moz-keyframes isloading1 /* Firefox */
+{
+from {-moz-opacity: 1;}
+to {-moz-opacity: 0;visibility: hidden;}
+}
+
+@-webkit-keyframes isloading1 /* Safari 和 Chrome */
+{
+from {-webkit-opacity: 1;}
+to {-webkit-opacity: 0;visibility: hidden;}
+}
+
+/*饿了么的样式修改*/

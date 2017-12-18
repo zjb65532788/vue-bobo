@@ -1,5 +1,5 @@
 <template>
-	<a :class="'bobo-btn bobo-btn-'+type" >
+	<a :class="'bobo-btn bobo-btn-'+type" @click="onclick" >
 		<slot></slot>
 	</a>
 </template>
@@ -9,6 +9,11 @@
 			type:{
 				type:String,
 				default:"default"
+			}
+		},
+		methods:{
+			onclick(){
+				this.$emit('click');
 			}
 		}
 	}
