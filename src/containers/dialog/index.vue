@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<div @click="open">点击打开对话框</div>
-		<div @click="open1">图片裁剪</div>
+		<div @click="open1" class="mt30">图片裁剪</div>
 		<img :src="img" style="width:200px" v-if="img" />
 
 		<bobo-dialog title="一个对话框demo" :visible.sync="visible" @close="close" @open="opendia">
