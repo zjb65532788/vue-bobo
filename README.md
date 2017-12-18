@@ -1,7 +1,7 @@
 # vue-bobo
 
 > 一些组件
-
+>[在线demo](http://ald.nbb.pw/index.html#/dialog)
 ## Build Setup
 
 ``` bash
